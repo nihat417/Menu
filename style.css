@@ -6,12 +6,20 @@ header{
 }
 
 .btn1{
-    width: 100px;
-    border-radius: 10%;
+    width: 80%;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 1,2rem;
     margin: 10px;
+    border: 1px solid #2b9b2b;
+    color: black;
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+
 }
 
 @media only screen and (min-width: 768px)
 {
+    .btn1 {width: 250px;}
     header { flex-direction: row;}
 }
